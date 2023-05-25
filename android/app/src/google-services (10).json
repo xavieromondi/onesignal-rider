@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314058240583",
+    "project_id": "onesignal-rider",
+    "storage_bucket": "onesignal-rider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314058240583:android:1f5dbad43fa293859bb762",
+        "android_client_info": {
+          "package_name": "com.myasma01.onesignalrider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314058240583-994omhnu4k0eb8uhgdo3e4sepq16v0q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByemH3VxI-4yrlC-ui8mMl8f5d8FyXlko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314058240583-994omhnu4k0eb8uhgdo3e4sepq16v0q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
