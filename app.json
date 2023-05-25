@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.myasma01.onesignalrider"
@@ -35,7 +37,27 @@
       ]
     ],
     "extra": {
-      "oneSignalAppId": "43ad2f5a-8798-4773-bc8b-6ed3de961eca"
+      "oneSignalAppId": "43ad2f5a-8798-4773-bc8b-6ed3de961eca",
+      "eas": {
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "targetName": "OneSignalNotificationServiceExtension",
+                  "bundleIdentifier": "com.myasma01.onesignalrider.OneSignalNotificationServiceExtension",
+                  "entitlements": {
+                    "com.apple.security.application-groups": [
+                      "group.com.myasma01.onesignalrider.onesignal"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "projectId": "3da384d5-5df0-475a-8357-e78a90c002f4"
+      }
     }
   }
 }
